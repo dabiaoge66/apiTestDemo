@@ -25,7 +25,21 @@
       productLevel: $.data.areaInfo.priceGearList[1].sort
       sign: $.global_sign
       timestamp: time
-      userBalance: $.data.areaInfo.priceGearList[1].price
+      useBalance: $.data.areaInfo.priceGearList[1].price
+  validate:
+    assert_path: $.msg
+    assert_field: 操作成功
+
+- feature: 支付开机
+  story: 扫码接口
+  title: 无卡券无活动(纯微信)-扫码
+  requests:
+    method: get
+    path: /api/product
+    headers:
+      uid: $.wx_uid[0]
+    params:
+      deviceId: $.device_id[0]
   validate:
     assert_path: $.msg
     assert_field: 操作成功
@@ -43,7 +57,7 @@
       productLevel: $.data.areaInfo.priceGearList[1].sort
       sign: $.global_sign
       timestamp: time
-      userBalance: $.data.areaInfo.priceGearList[1].price
+      useBalance: $.data.areaInfo.priceGearList[1].price
   validate:
     assert_path: $.msg
     assert_field: 操作成功

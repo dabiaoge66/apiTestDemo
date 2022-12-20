@@ -17,22 +17,23 @@ def get_project_path():
 # 写入数据(a+:追加)
 def write_yaml(data):
     with open(get_project_path() + "/extract.yaml", encoding="utf-8", mode="a+") as f:
-        yaml.dump(data, stream=f, allow_unicode=True)
+        yaml.dump([data], stream=f, allow_unicode=True)
 
 
 # 读取数据
 def read_yaml(path=None):
     """
+    :param index: 索引
     :param path:json路径表达式
-    :return: 表达式为空返回整个json，不为空，返回表达式下的值
+    :return: 表达式为空返回整个对象，不为空，返回表达式下的值
     """
     with open(get_project_path() + "/extract.yaml", encoding="utf-8", mode="r") as f:
         value = yaml.load(f, yaml.FullLoader)
         if path is None:
             return value
         else:
-            # yaml读取的时候返回列表，因此用value[0];
-            return jsonpath.jsonpath(value[0], path)[0]  # jsonpath返回的也是一个列表，取第一个值返回，方便操作
+            # jsonpath返回的是一个列表，取第一个值返回，方便操作
+            return jsonpath.jsonpath(value, path)[0]
 
 
 # 读取json数据
@@ -68,8 +69,8 @@ def read_test_case(path, index=None):
             if header[payload].startswith('$'):
                 try:
                     header[payload] = read_json(header[payload])
-                except KeyError:
-                    header[payload] = read_yaml(header[payload])
+                except TypeError:
+                    header[payload] = read_yaml(header[payload].replace('$', f'$[{index}]'))
                     continue
         # 给params重新赋值
         for payload in params:
@@ -77,7 +78,8 @@ def read_test_case(path, index=None):
                 try:
                     params[payload] = read_json(params[payload])
                 except TypeError:
-                    params[payload] = read_yaml(params[payload])
+                    # 取上一个接口响应值，所以索引-1
+                    params[payload] = read_yaml(params[payload].replace('$', f'$[{index - 1}]'))
                     continue
             elif params[payload] == 'time':
                 params[payload] = round(time.time() * 1000)
