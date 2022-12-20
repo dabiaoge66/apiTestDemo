@@ -1,0 +1,14 @@
+{"global":
+{
+  "test_url": ["http://toc-live-test.lemobar.cn/springx-lemobar-toc"],
+  "wx_uid": ["f224787d4784449098a9d7607aa8e462", "5a48bd3113c04f13a5e6e53243039d9c"],
+  "ali_uid": ["a792dd8549ad4446936a0f76831fd4a0"],
+  "device_id": ["1021000000165"],
+  "global_sign": "010203010203",
+  "sign_key": ["7cd4a214-983c-40e4-adc5-4b241ed26386"],
+  "pay_channel": ["101", "102"]
+},
+  "environment": {
+    "test1":  "test1"
+  }
+}
