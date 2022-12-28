@@ -21,7 +21,7 @@ class RequestsUtils:
         )
         write_yaml(res.json())  # 写入响应数据
         print(f'request:{res.url}')
-        print(f'request:{res.headers}')
+        print(f'request:{data["requests"]["headers"]}')
         print(f'response:{res.text}')
         return res
 

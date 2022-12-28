@@ -7,7 +7,9 @@
         activityReceiveImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/dev/upload/images/2022-10-12/787d09e4419ebe823d718925d88cf874.png
         activityType: 3
         couponInfos:
-        - cornerMark: 帅哥是我
+        - availTime: []
+          classify: 1
+          cornerMark: 帅哥是我
           couponCost: 1000
           couponName: 测试第二
           couponNum: -1
@@ -17,10 +19,17 @@
           doorsillUnit: 1
           getWay: -1
           limitGear: []
+          rangeMax: -1
+          rangeMin: -1
           useDescription: '11111111111111'
           validityEnd: 1664553600000
           validityStart: 1664500317000
-        - cornerMark: '111'
+          way: 1
+        - availTime:
+          - endTime: '23:59:00'
+            startTime: 00:00:00
+          classify: 1
+          cornerMark: '111'
           couponCost: 10
           couponName: 帅哥满减券
           couponNum: -1
@@ -30,51 +39,36 @@
           doorsillUnit: 1
           getWay: -1
           limitGear: []
+          rangeMax: -1
+          rangeMin: -1
           useDescription: '11111111111'
           validityEnd: 1673668212000
           validityStart: 1665719407000
+          way: 1
         h5Url: '11111111'
         id: 3
         position: '3'
         trigger: true
         wxAliUrl: '11111111111'
         wxAppletsUrl: '11111111111'
-      activitySellCard: {}
-      addPurchaseList:
-      - addPurchaseDiscountId: 26
-        description: '33'
-        duration: 11
-        gearId: 1
-        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/0e3eb4a00545f1980f167945c62ff070.png
-        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/c57667183e61ea4111a6dcb4df80b93f.png
-        name: '11'
-        price: 1100
-        recommend: true
-        selected: true
-      - addPurchaseDiscountId: 26
-        description: ''
-        duration: 11
-        gearId: 2
-        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/731dfd18e92a795a7329c910d8064549.png
-        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/c57667183e61ea4111a6dcb4df80b93f.png
-        name: '22'
-        price: 1100
-        recommend: false
-        selected: false
+      activitySellCard:
+        configMap: {}
+        required: 1
+      addPurchaseList: []
       freeDiscount: {}
       memberDay: {}
       priceManagement:
-        activityDesc: 六周年感恩回馈测试测试测试测试
-        discountValue: 80
-        id: 7
-        priceGroupId: 1
-        priceTitle: w测试调价活动
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
         viewShowType: 2
       secondDiscount: {}
     areaInfo:
       cinemaInfo: {}
       paymentTypeList:
-      - id: 101
+      - id: 1
         paymentKey: '101'
         paymentName: 微信支付
         paymentValue: '1'
@@ -83,1383 +77,52 @@
         duration: 1
         gearDesc: ''
         gearName: 缓解疲劳
-        id: 1410
-        price: 202
+        id: 1426
+        price: 1
         recommend: false
         sort: 1
       - defaultGear: true
-        duration: 15
+        duration: 1
         gearDesc: ''
         gearName: 焕发活力
-        id: 1411
+        id: 1427
         price: 1001
         recommend: false
         sort: 2
       - defaultGear: false
-        duration: 20
+        duration: 1
         gearDesc: ''
         gearName: 深度舒压
-        id: 1412
+        id: 1428
         price: 2001
         recommend: true
         sort: 3
     backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
     userInfo:
       accountCouponInfo:
-        availNum: 118
+        availNum: 1
         cardData:
           cardList: []
-          cashList:
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342114
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342115
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342116
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342117
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342118
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342119
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342120
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342121
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342122
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342123
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342124
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342125
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342126
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342127
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342128
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342129
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342130
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342131
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342132
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342133
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342134
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342135
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342136
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342137
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342138
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342139
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342140
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342141
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342142
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342143
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342144
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342145
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342146
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342147
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342148
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342149
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342150
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342151
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342152
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342153
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342154
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342155
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342156
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342157
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342158
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342159
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342160
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342161
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342162
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342163
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342164
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342165
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342166
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342167
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342168
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342169
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342170
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342171
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342172
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342173
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342174
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342175
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342176
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342177
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342178
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342179
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342180
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342181
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342182
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342183
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342184
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342185
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342186
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342187
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342188
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342189
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342190
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342191
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342192
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342193
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342194
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342195
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342196
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342197
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342198
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342199
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342200
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342201
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342202
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342203
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342204
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342205
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342206
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342207
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342208
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342209
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342210
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342211
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342212
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342213
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342232
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342233
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342234
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342235
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342236
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          couponList:
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342096
+          cashList: []
+          couponList: []
+          overtimeCardList:
+          - ableType: 1
+            classify: 3
+            cornerMark: ''
+            couponType: 31
+            couponValue: 2
+            doorsill: -1
+            doorsillUnit: 0
+            id: 5342631
             limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342097
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342098
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342099
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342102
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342103
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342104
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342105
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 123
-            doorsill: 500
-            doorsillUnit: 1
-            id: 5342113
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342214
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342215
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342216
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342217
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342218
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342219
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342220
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342221
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          overtimeCardList: []
+            validityEnd: 1672243199000
+            validityStart: 1672070400000
         cardNum: 0
-        cashCouponNum: 105
-        couponNum: 13
-        overTimeNum: 0
-        totalNum: 122
-      balance: 1000084463
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 1
+        totalNum: 1
+      balance: 1000079455
       bind: true
       freeGear: []
       rechargeConfig:
@@ -1488,10 +151,10 @@
           giveRate: 26
           id: 4
       userLevel: 2
-      userPoint: 290
+      userPoint: 590
   msg: 操作成功
 - code: 200
-  data: Y0000022122016052281004367585282
+  data: Y0000022122816081091880709038082
   msg: 操作成功
 - code: 200
   data:
@@ -1502,7 +165,9 @@
         activityReceiveImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/dev/upload/images/2022-10-12/787d09e4419ebe823d718925d88cf874.png
         activityType: 3
         couponInfos:
-        - cornerMark: 帅哥是我
+        - availTime: []
+          classify: 1
+          cornerMark: 帅哥是我
           couponCost: 1000
           couponName: 测试第二
           couponNum: -1
@@ -1512,10 +177,17 @@
           doorsillUnit: 1
           getWay: -1
           limitGear: []
+          rangeMax: -1
+          rangeMin: -1
           useDescription: '11111111111111'
           validityEnd: 1664553600000
           validityStart: 1664500317000
-        - cornerMark: '111'
+          way: 1
+        - availTime:
+          - endTime: '23:59:00'
+            startTime: 00:00:00
+          classify: 1
+          cornerMark: '111'
           couponCost: 10
           couponName: 帅哥满减券
           couponNum: -1
@@ -1525,51 +197,36 @@
           doorsillUnit: 1
           getWay: -1
           limitGear: []
+          rangeMax: -1
+          rangeMin: -1
           useDescription: '11111111111'
           validityEnd: 1673668212000
           validityStart: 1665719407000
+          way: 1
         h5Url: '11111111'
         id: 3
         position: '3'
         trigger: true
         wxAliUrl: '11111111111'
         wxAppletsUrl: '11111111111'
-      activitySellCard: {}
-      addPurchaseList:
-      - addPurchaseDiscountId: 26
-        description: '33'
-        duration: 11
-        gearId: 1
-        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/0e3eb4a00545f1980f167945c62ff070.png
-        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/c57667183e61ea4111a6dcb4df80b93f.png
-        name: '11'
-        price: 1100
-        recommend: true
-        selected: true
-      - addPurchaseDiscountId: 26
-        description: ''
-        duration: 11
-        gearId: 2
-        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/731dfd18e92a795a7329c910d8064549.png
-        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-16/c57667183e61ea4111a6dcb4df80b93f.png
-        name: '22'
-        price: 1100
-        recommend: false
-        selected: false
+      activitySellCard:
+        configMap: {}
+        required: 1
+      addPurchaseList: []
       freeDiscount: {}
       memberDay: {}
       priceManagement:
-        activityDesc: 六周年感恩回馈测试测试测试测试
-        discountValue: 80
-        id: 7
-        priceGroupId: 1
-        priceTitle: w测试调价活动
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
         viewShowType: 2
       secondDiscount: {}
     areaInfo:
       cinemaInfo: {}
       paymentTypeList:
-      - id: 101
+      - id: 1
         paymentKey: '101'
         paymentName: 微信支付
         paymentValue: '1'
@@ -1578,1383 +235,52 @@
         duration: 1
         gearDesc: ''
         gearName: 缓解疲劳
-        id: 1410
-        price: 202
+        id: 1426
+        price: 1
         recommend: false
         sort: 1
       - defaultGear: true
-        duration: 15
+        duration: 1
         gearDesc: ''
         gearName: 焕发活力
-        id: 1411
+        id: 1427
         price: 1001
         recommend: false
         sort: 2
       - defaultGear: false
-        duration: 20
+        duration: 1
         gearDesc: ''
         gearName: 深度舒压
-        id: 1412
+        id: 1428
         price: 2001
         recommend: true
         sort: 3
     backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
     userInfo:
       accountCouponInfo:
-        availNum: 118
+        availNum: 1
         cardData:
           cardList: []
-          cashList:
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342114
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342115
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342116
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342117
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342118
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342119
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342120
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342121
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342122
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342123
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342124
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342125
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342126
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342127
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342128
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342129
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342130
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342131
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342132
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342133
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342134
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342135
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342136
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342137
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342138
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342139
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342140
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342141
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342142
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342143
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342144
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342145
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342146
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342147
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342148
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342149
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342150
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342151
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342152
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342153
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342154
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342155
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342156
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342157
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342158
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342159
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342160
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342161
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342162
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342163
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342164
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342165
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342166
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342167
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342168
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342169
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342170
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342171
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342172
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342173
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342174
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342175
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342176
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342177
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342178
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342179
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342180
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342181
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342182
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342183
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342184
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342185
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342186
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342187
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342188
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342189
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342190
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342191
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342192
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342193
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342194
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342195
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342196
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342197
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342198
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342199
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342200
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342201
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342202
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342203
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342204
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342205
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342206
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342207
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342208
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342209
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342210
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342211
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342212
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342213
-            limitGear:
-            - 2
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342232
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342233
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342234
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342235
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 2
-            cornerMark: ''
-            couponCode: ''
-            couponType: 22
-            couponValue: -1
-            id: 5342236
-            limitGear:
-            - 2
-            validityEnd: 1671552000000
-            validityStart: 1671465600000
-          couponList:
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342096
+          cashList: []
+          couponList: []
+          overtimeCardList:
+          - ableType: 1
+            classify: 3
+            cornerMark: ''
+            couponType: 31
+            couponValue: 2
+            doorsill: -1
+            doorsillUnit: 0
+            id: 5342631
             limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342097
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342098
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342099
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342102
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342103
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342104
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342105
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 123
-            doorsill: 500
-            doorsillUnit: 1
-            id: 5342113
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342214
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 100
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342215
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342216
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342217
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342218
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 9
-            classify: 1
-            cornerMark: ''
-            couponType: 11
-            couponValue: 188
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342219
-            limitGear: []
-            validityEnd: 1671551999000
-            validityStart: 1671465600000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342220
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          - ableType: 1
-            classify: 1
-            cornerMark: ''
-            couponType: 12
-            couponValue: 50
-            doorsill: 1
-            doorsillUnit: 2
-            id: 5342221
-            limitGear: []
-            validityEnd: 1671638399000
-            validityStart: 1671379200000
-          overtimeCardList: []
+            validityEnd: 1672243199000
+            validityStart: 1672070400000
         cardNum: 0
-        cashCouponNum: 105
-        couponNum: 13
-        overTimeNum: 0
-        totalNum: 122
-      balance: 1000083462
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 1
+        totalNum: 1
+      balance: 1000078454
       bind: true
       freeGear: []
       rechargeConfig:
@@ -2983,8 +309,162 @@
           giveRate: 26
           id: 4
       userLevel: 2
-      userPoint: 290
+      userPoint: 690
   msg: 操作成功
+- code: 201
+  data:
+    appId: wx636607883b52d355
+    body: ''
+    channelNo: ''
+    codeUrl: ''
+    errCode: ''
+    errCodeDes: ''
+    nonceStr: PkidniGViIYYg6Bf
+    openid: ''
+    orderId: W0000022122816081091964679004162
+    orderInfo: ''
+    outOrderId: ''
+    package: prepay_id=wx28223445502435d29b909a87c6831f0000
+    partnerid: ''
+    paySign: 664D558A27E1520D98D352290DA5F724
+    payTypeEnum: {}
+    prepayId: ''
+    resultCode: SUCCESS
+    signType: MD5
+    timeStamp: '1672238084'
+  msg: 操作成功
+- code: 10602
+  data: {}
+  msg: 订单不存在
 - code: 200
-  data: Y0000022122016052281080326430722
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard:
+        configMap: {}
+        required: 1
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+    areaInfo:
+      cinemaInfo: {}
+      paymentTypeList:
+      - id: 2
+        paymentKey: '102'
+        paymentName: 支付宝支付
+        paymentValue: '2'
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 1
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList:
+          - ableType: 1
+            classify: 3
+            cornerMark: ''
+            couponType: 31
+            couponValue: 2
+            doorsill: -1
+            doorsillUnit: 0
+            id: 5342631
+            limitGear: []
+            validityEnd: 1672243199000
+            validityStart: 1672070400000
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 1
+        totalNum: 1
+      balance: 1000078454
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 690
   msg: 操作成功
+- code: 201
+  data:
+    appId: ''
+    body: ''
+    channelNo: ''
+    codeUrl: ''
+    errCode: ''
+    errCodeDes: ''
+    nonceStr: ''
+    openid: ''
+    orderId: A0000022122816081092019792158722
+    orderInfo: ''
+    outOrderId: '2022122822001480751425989570'
+    package: ''
+    partnerid: ''
+    paySign: ''
+    payTypeEnum: {}
+    prepayId: ''
+    resultCode: '10000'
+    signType: ''
+    timeStamp: ''
+  msg: 操作成功
+- code: 10602
+  data: {}
+  msg: 订单不存在

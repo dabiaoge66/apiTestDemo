@@ -1,4 +1,4 @@
-- feature: 支付开机
+- feature: 支付开机0
   story: 扫码接口
   title: 无卡券无活动(纯余额)-扫码
   requests:
@@ -12,7 +12,7 @@
     assert_path: $.msg
     assert_field: 操作成功
 
-- feature: 支付开机
+- feature: 支付开机1
   story: 扫码接口
   title: 无卡券无活动(纯余额)-下单
   requests:
@@ -30,7 +30,7 @@
     assert_path: $.msg
     assert_field: 操作成功
 
-- feature: 支付开机
+- feature: 支付开机2
   story: 扫码接口
   title: 无卡券无活动(纯微信)-扫码
   requests:
@@ -44,7 +44,7 @@
     assert_path: $.msg
     assert_field: 操作成功
 
-- feature: 支付开机
+- feature: 支付开机3
   story: 扫码接口
   title: 无卡券无活动(纯微信)-下单
   requests:
@@ -57,7 +57,69 @@
       productLevel: $.data.areaInfo.priceGearList[1].sort
       sign: $.global_sign
       timestamp: time
-      useBalance: $.data.areaInfo.priceGearList[1].price
+      payChannel: $.pay_channel[0]
+      useCashMoney: $.data.areaInfo.priceGearList[1].price
+  validate:
+    assert_path: $.msg
+    assert_field: 操作成功
+
+- feature: 支付开机4
+  story: 回调接口
+  title: 无卡券无活动(纯微信)-回调
+  requests:
+    method: post
+    path: /api/test/pay/order/notify
+    headers:
+      uid: $.wx_uid[0]
+    params:
+      guid: $.data.orderId
+  validate:
+    assert_path: $.msg
+    assert_field: 操作成功
+
+- feature: 支付开机5
+  story: 扫码接口
+  title: 无卡券无活动(纯支付宝)-扫码
+  requests:
+    method: get
+    path: /api/product
+    headers:
+      uid: $.ali_uid[0]
+    params:
+      deviceId: $.device_id[0]
+  validate:
+    assert_path: $.msg
+    assert_field: 操作成功
+
+- feature: 支付开机6
+  story: 扫码接口
+  title: 无卡券无活动(纯支付宝)-下单
+  requests:
+    method: post
+    path: /api/order/create
+    headers:
+      uid: $.ali_uid[0]
+    params:
+      deviceId: $.device_id][0]
+      productLevel: $.data.areaInfo.priceGearList[1].sort
+      sign: $.global_sign
+      timestamp: time
+      payChannel: $.pay_channel[1]
+      useCashMoney: $.data.areaInfo.priceGearList[1].price
+  validate:
+    assert_path: $.msg
+    assert_field: 操作成功
+
+- feature: 支付开机7
+  story: 回调接口
+  title: 无卡券无活动(纯支付宝)-回调
+  requests:
+    method: post
+    path: /api/test/pay/order/notify
+    headers:
+      uid: $.ali_uid[0]
+    params:
+      guid: $.data.orderId
   validate:
     assert_path: $.msg
     assert_field: 操作成功
