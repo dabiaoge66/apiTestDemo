@@ -20,10 +20,11 @@ def validate_main(request_obj, validate_data):
 
 def assert_status(payload, request_obj, method, expect):
     """断言响应状态码"""
+    # 为了方便读取，yaml不给int类型数据；因此将状态码转为str
     if method[payload] == CaseEnum.IS.value:  # 相等
-        assert request_obj.status_code == expect[payload]
+        assert str(request_obj.status_code) == expect[payload]
     elif method[payload] == CaseEnum.NOT.value:  # 不等
-        assert request_obj.status_code != expect[payload]
+        assert str(request_obj.status_code) != expect[payload]
 
 
 def assert_data(payload, actual, method, expect):

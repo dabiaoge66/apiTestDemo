@@ -38,9 +38,7 @@ class RequestsUtils:
 
     @staticmethod
     def for_test(base_url, index):
-        # 读取接口用例文件
+        """浅浅测试一下"""
         data = read_test_case("test_case/forTest.yaml", index)
-        # 发送请求
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
-        # 断言
         validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
