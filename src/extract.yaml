@@ -885,3 +885,387 @@
 - code: 10002
   data: {}
   msg: 支付组不存在
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 0
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 0
+      balance: 8833687
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5711
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 0
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 0
+      balance: 8833687
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5711
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 0
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 0
+      balance: 8833687
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5711
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 0
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 0
+      balance: 8833687
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5711
+  msg: 操作成功

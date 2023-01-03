@@ -65,16 +65,16 @@ def read_test_case(path, index=None):
         if index is None:
             index = 0
         # 给header重新赋值
-        header = value[index][CaseEnum.REQUESTS][CaseEnum.HEADER]
+        header = value[index][CaseEnum.REQUESTS.value][CaseEnum.HEADER.value]
         reassignment(header, index)
         # 给params重新赋值
-        params = value[index][CaseEnum.REQUESTS][CaseEnum.PARAMS]
+        params = value[index][CaseEnum.REQUESTS.value][CaseEnum.PARAMS.value]
         handle_params(params, index)
         # 给assert_path重新赋值
-        assert_path = value[index][CaseEnum.VALIDATE][CaseEnum.ACTUAL]
+        assert_path = value[index][CaseEnum.VALIDATE.value][CaseEnum.ACTUAL.value]
         reassignment(assert_path, index)
         # 给assert_field重新赋值
-        assert_field = value[index][CaseEnum.VALIDATE][CaseEnum.EXPECT]
+        assert_field = value[index][CaseEnum.VALIDATE.value][CaseEnum.EXPECT.value]
         reassignment(assert_field, index)
         # 返回用例数据
         return value[index]
@@ -99,12 +99,12 @@ def handle_params(params, index):
                 # data.json没取到则取上一个接口响应值，索引-1
                 params[payload] = read_yaml(params[payload].replace('$', f'$[{index - 1}]'))
                 continue
-        elif params[payload].startswith(CaseEnum.SQL):  # sql开头则去操作数据库
-            if params[payload].split(',')[0] == CaseEnum.PRINT:  # 打印sql执行结果
+        elif params[payload].startswith(CaseEnum.SQL.value):  # sql开头则去操作数据库
+            if params[payload].split(',')[0] == CaseEnum.PRINT.value:  # 打印sql执行结果
                 check_data(handle_database(params[payload].split(',')[1]))
-            elif params[payload].split(',')[0] == CaseEnum.ASSIGNMENT:  # 赋值当前查询结果
+            elif params[payload].split(',')[0] == CaseEnum.ASSIGNMENT.value:  # 赋值当前查询结果
                 params[payload] = handle_database(params[payload].split(',')[1])[0]
-            elif params[payload].split(',')[0] == CaseEnum.HANDLE:  # 仅执行
+            elif params[payload].split(',')[0] == CaseEnum.HANDLE.value:  # 仅执行
                 handle_database(params[payload].split(',')[1])
             else:
                 raise 'sql类型错误，检查用例文件'

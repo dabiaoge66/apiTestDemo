@@ -12,7 +12,7 @@ class CaseEnum(Enum):
     # 请求要素
     METHOD = 'method'
     PATH = 'path'
-    HEADER = 'header'
+    HEADER = 'headers'
     PARAMS = 'params'
 
     # 断言要素
@@ -24,7 +24,7 @@ class CaseEnum(Enum):
     CODE = 'code'
     IS = 'is'
     NOT = 'not'
-    CONTAIN = 'contains'
+    IN = 'in'
 
     # sql关键字
     SQL = 'sql'

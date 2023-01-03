@@ -27,7 +27,7 @@
       path: $.msg
       status: code
     compare_method:
-      path: is
+      path: in
       status: not
     assert_field:
       path: 操作成功

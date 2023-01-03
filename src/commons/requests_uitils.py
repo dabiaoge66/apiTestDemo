@@ -12,18 +12,18 @@ class RequestsUtils:
     def seed_requests(**kwargs):
         """统一发送请求和异常处理"""
         # info=[data["feature"], data["story"], data["title"]]
-        print('-*-' * 20 + kwargs["data"][CaseEnum.TITLE] + '-*-' * 20)
+        print('-*-' * 20 + kwargs["data"][CaseEnum.TITLE.value] + '-*-' * 20)
         data = kwargs["data"]
-        url = kwargs["base_url"] + data[CaseEnum.REQUESTS][CaseEnum.PATH]
+        url = kwargs["base_url"] + data[CaseEnum.REQUESTS.value][CaseEnum.PATH.value]
         req = RequestsUtils.sess.request(
-            method=data[CaseEnum.REQUESTS][CaseEnum.METHOD],
+            method=data[CaseEnum.REQUESTS.value][CaseEnum.METHOD.value],
             url=url,
-            headers=data[CaseEnum.REQUESTS][CaseEnum.HEADER],
-            params=data[CaseEnum.REQUESTS][CaseEnum.PARAMS]
+            headers=data[CaseEnum.REQUESTS.value][CaseEnum.HEADER.value],
+            params=data[CaseEnum.REQUESTS.value][CaseEnum.PARAMS.value]
         )
         write_yaml(req.json())  # 写入响应数据
         print(f'request:{req.url}')
-        print(f'request:{data[CaseEnum.REQUESTS][CaseEnum.HEADER]}')
+        print(f'request:{data[CaseEnum.REQUESTS.value][CaseEnum.HEADER.value]}')
         print(f'response:{req.text}')
         return req
 
@@ -34,7 +34,7 @@ class RequestsUtils:
         # 发送请求
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
         # 断言
-        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE])
+        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
 
     @staticmethod
     def for_test(base_url, index):
@@ -43,4 +43,4 @@ class RequestsUtils:
         # 发送请求
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
         # 断言
-        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE])
+        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
