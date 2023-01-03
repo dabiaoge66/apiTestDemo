@@ -1,5 +1,7 @@
 import requests
-from commons.yaml_utils import clear_yaml, write_yaml, read_test_case
+from commons.yaml_utils import write_yaml, read_test_case
+from config.utils import CaseEnum
+from validate.assert_result import validate_main
 
 
 class RequestsUtils:
@@ -10,24 +12,35 @@ class RequestsUtils:
     def seed_requests(**kwargs):
         """统一发送请求和异常处理"""
         # info=[data["feature"], data["story"], data["title"]]
-        print('-*-' * 20 + kwargs["data"]["title"] + '-*-' * 20)
+        print('-*-' * 20 + kwargs["data"][CaseEnum.TITLE] + '-*-' * 20)
         data = kwargs["data"]
-        url = kwargs["base_url"] + data["requests"]["path"]
-        res = RequestsUtils.sess.request(
-            method=data["requests"]["method"],
+        url = kwargs["base_url"] + data[CaseEnum.REQUESTS][CaseEnum.PATH]
+        req = RequestsUtils.sess.request(
+            method=data[CaseEnum.REQUESTS][CaseEnum.METHOD],
             url=url,
-            headers=data["requests"]["headers"],
-            params=data["requests"]["params"]
+            headers=data[CaseEnum.REQUESTS][CaseEnum.HEADER],
+            params=data[CaseEnum.REQUESTS][CaseEnum.PARAMS]
         )
-        write_yaml(res.json())  # 写入响应数据
-        print(f'request:{res.url}')
-        print(f'request:{data["requests"]["headers"]}')
-        print(f'response:{res.text}')
-        return res
+        write_yaml(req.json())  # 写入响应数据
+        print(f'request:{req.url}')
+        print(f'request:{data[CaseEnum.REQUESTS][CaseEnum.HEADER]}')
+        print(f'response:{req.text}')
+        return req
 
     @staticmethod
     def module_method(base_url, index):
         # 读取接口用例文件
         data = read_test_case("test_case/createOrder.yaml", index)
         # 发送请求
-        RequestsUtils.seed_requests(data=data, base_url=base_url)
+        req = RequestsUtils.seed_requests(data=data, base_url=base_url)
+        # 断言
+        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE])
+
+    @staticmethod
+    def for_test(base_url, index):
+        # 读取接口用例文件
+        data = read_test_case("test_case/forTest.yaml", index)
+        # 发送请求
+        req = RequestsUtils.seed_requests(data=data, base_url=base_url)
+        # 断言
+        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE])

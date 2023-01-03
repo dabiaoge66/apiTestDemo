@@ -4,6 +4,9 @@ import time
 import jsonpath as jsonpath
 import yaml
 
+from config.utils import CaseEnum
+from data.database import handle_database, check_data
+
 
 def get_project_path():
     """得到项目路径"""
@@ -23,7 +26,6 @@ def write_yaml(data):
 # 读取数据
 def read_yaml(path=None):
     """
-    :param index: 索引
     :param path:json路径表达式
     :return: 表达式为空返回整个对象，不为空，返回表达式下的值
     """
@@ -59,31 +61,55 @@ def read_test_case(path, index=None):
     """
     with open(get_project_path() + '/' + path, encoding="utf-8", mode="r") as f:
         value = yaml.load(f, yaml.FullLoader)
-        # 给header重新赋值
         # uid_index = random.randint(0, 2)  # 随机索引
         if index is None:
             index = 0
-        header = value[index]["requests"]["headers"]
-        params = value[index]["requests"]["params"]
-        for payload in header:
-            if header[payload].startswith('$'):
-                try:
-                    header[payload] = read_json(header[payload])
-                except TypeError:
-                    header[payload] = read_yaml(header[payload].replace('$', f'$[{index}]'))
-                    continue
+        # 给header重新赋值
+        header = value[index][CaseEnum.REQUESTS][CaseEnum.HEADER]
+        reassignment(header, index)
         # 给params重新赋值
-        for payload in params:
-            if params[payload].startswith('$'):
-                try:
-                    params[payload] = read_json(params[payload])
-                except TypeError:
-                    # 取上一个接口响应值，所以索引-1
-                    params[payload] = read_yaml(params[payload].replace('$', f'$[{index - 1}]'))
-                    continue
-            elif params[payload] == 'time':
-                params[payload] = round(time.time() * 1000)
+        params = value[index][CaseEnum.REQUESTS][CaseEnum.PARAMS]
+        handle_params(params, index)
+        # 给assert_path重新赋值
+        assert_path = value[index][CaseEnum.VALIDATE][CaseEnum.ACTUAL]
+        reassignment(assert_path, index)
+        # 给assert_field重新赋值
+        assert_field = value[index][CaseEnum.VALIDATE][CaseEnum.EXPECT]
+        reassignment(assert_field, index)
+        # 返回用例数据
         return value[index]
+
+
+def reassignment(parameter, index):
+    for payload in parameter:
+        if parameter[payload].startswith('$'):
+            try:
+                parameter[payload] = read_json(parameter[payload])
+            except TypeError:
+                parameter[payload] = read_yaml(parameter[payload].replace('$', f'$[{index - 1}]'))
+                continue
+
+
+def handle_params(params, index):
+    for payload in params:
+        if params[payload].startswith('$'):  # $开头则去data.json获取上一个接口返回值里取值
+            try:
+                params[payload] = read_json(params[payload])
+            except TypeError:
+                # data.json没取到则取上一个接口响应值，索引-1
+                params[payload] = read_yaml(params[payload].replace('$', f'$[{index - 1}]'))
+                continue
+        elif params[payload].startswith(CaseEnum.SQL):  # sql开头则去操作数据库
+            if params[payload].split(',')[0] == CaseEnum.PRINT:  # 打印sql执行结果
+                check_data(handle_database(params[payload].split(',')[1]))
+            elif params[payload].split(',')[0] == CaseEnum.ASSIGNMENT:  # 赋值当前查询结果
+                params[payload] = handle_database(params[payload].split(',')[1])[0]
+            elif params[payload].split(',')[0] == CaseEnum.HANDLE:  # 仅执行
+                handle_database(params[payload].split(',')[1])
+            else:
+                raise 'sql类型错误，检查用例文件'
+        elif params[payload] == 'time':  # 值为time则赋值当前时间戳
+            params[payload] = round(time.time() * 1000)
 
 
 # 清空数据

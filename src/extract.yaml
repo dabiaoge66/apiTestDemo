@@ -52,11 +52,31 @@
         wxAliUrl: '11111111111'
         wxAppletsUrl: '11111111111'
       activitySellCard:
-        configMap: {}
+        accountTag: 最近30天，订单数>=8单
+        configMap:
+          '1':
+            backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/9562d2a46b4b68e9a68e4ae047dee7d0.png
+            bannerImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/a377328d1e963ad6b86d3ab87c8f01a6.png
+            cardMoney: 1000
+            description: "1.活动时间：2022年12月8日-12月12日； \n2.本产品参与世界杯竞猜返单礼活动（猜中冠军有机会获得加赠一张5次卡）；\n\
+              3.购买说明：每个账号限购1单，购买后不支持退款，逾期不补； \n4.使用时间：购买成功即可使用，有效期40天，可在乐摩吧公众号【个人中心】-【卡包】内查看；\
+              \ \n5.使用次数：每个账号每天限用4次，本套餐最多可抵用5次，过期自动失效； \n6.使用方式：购买成功后扫描椅子二维码进入支付页，选择第二档位，点击下方“次卡”并成功支付即可启动椅子；\
+              \ \n7.使用范围：本活动不与乐摩吧其他同时段活动同享，机场、高铁、火车站不可用； \n8.转赠说明：服务开通后，每个卡包在未使用情况下可赠送且仅限成功转赠1位好友，不可再次转让，禁止代扫、兑现、找零等操作；\
+              \ \n9.如违反乐摩吧《服务协议》守则，不当使用卡券，乐摩吧将有权停卡封号，对此造成的损失由用户承担,乐摩吧保留对违法使用行为的法律责任追究；\
+              \ \n10.因不同地区不同机器运营状况不同，具体使用场景的价格及分钟数以现场扫码后显示出的价格和分钟数为准，介意者慎买； \n11.活动咨询电话：400-859-3566。"
+            deviceId: '101900003'
+            gear: '1'
+            sellCardActivityId: 35
+            totalQty: 10
         required: 1
       addPurchaseList: []
       freeDiscount: {}
-      memberDay: {}
+      memberDay:
+        backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/3dcab1f0c3bbc7720d68b940ae3df9d3.jpeg
+        bind: true
+        discountValue: 50
+        endTime: 1673350680000
+        startTime: 1663329351000
       priceManagement:
         activityDesc: 便宜又实惠啦快来看看啦
         discountValue: 75
@@ -100,29 +120,18 @@
     backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
     userInfo:
       accountCouponInfo:
-        availNum: 1
+        availNum: 0
         cardData:
           cardList: []
           cashList: []
           couponList: []
-          overtimeCardList:
-          - ableType: 1
-            classify: 3
-            cornerMark: ''
-            couponType: 31
-            couponValue: 2
-            doorsill: -1
-            doorsillUnit: 0
-            id: 5342631
-            limitGear: []
-            validityEnd: 1672243199000
-            validityStart: 1672070400000
+          overtimeCardList: []
         cardNum: 0
         cashCouponNum: 0
         couponNum: 0
-        overTimeNum: 1
-        totalNum: 1
-      balance: 1000079455
+        overTimeNum: 0
+        totalNum: 0
+      balance: 1000074450
       bind: true
       freeGear: []
       rechargeConfig:
@@ -151,10 +160,10 @@
           giveRate: 26
           id: 4
       userLevel: 2
-      userPoint: 590
+      userPoint: 1290
   msg: 操作成功
 - code: 200
-  data: Y0000022122816081091880709038082
+  data: Y0000022122916082876654033346562
   msg: 操作成功
 - code: 200
   data:
@@ -210,11 +219,31 @@
         wxAliUrl: '11111111111'
         wxAppletsUrl: '11111111111'
       activitySellCard:
-        configMap: {}
+        accountTag: 最近30天，订单数>=8单
+        configMap:
+          '1':
+            backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/9562d2a46b4b68e9a68e4ae047dee7d0.png
+            bannerImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/a377328d1e963ad6b86d3ab87c8f01a6.png
+            cardMoney: 1000
+            description: "1.活动时间：2022年12月8日-12月12日； \n2.本产品参与世界杯竞猜返单礼活动（猜中冠军有机会获得加赠一张5次卡）；\n\
+              3.购买说明：每个账号限购1单，购买后不支持退款，逾期不补； \n4.使用时间：购买成功即可使用，有效期40天，可在乐摩吧公众号【个人中心】-【卡包】内查看；\
+              \ \n5.使用次数：每个账号每天限用4次，本套餐最多可抵用5次，过期自动失效； \n6.使用方式：购买成功后扫描椅子二维码进入支付页，选择第二档位，点击下方“次卡”并成功支付即可启动椅子；\
+              \ \n7.使用范围：本活动不与乐摩吧其他同时段活动同享，机场、高铁、火车站不可用； \n8.转赠说明：服务开通后，每个卡包在未使用情况下可赠送且仅限成功转赠1位好友，不可再次转让，禁止代扫、兑现、找零等操作；\
+              \ \n9.如违反乐摩吧《服务协议》守则，不当使用卡券，乐摩吧将有权停卡封号，对此造成的损失由用户承担,乐摩吧保留对违法使用行为的法律责任追究；\
+              \ \n10.因不同地区不同机器运营状况不同，具体使用场景的价格及分钟数以现场扫码后显示出的价格和分钟数为准，介意者慎买； \n11.活动咨询电话：400-859-3566。"
+            deviceId: '101900003'
+            gear: '1'
+            sellCardActivityId: 35
+            totalQty: 10
         required: 1
       addPurchaseList: []
       freeDiscount: {}
-      memberDay: {}
+      memberDay:
+        backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/3dcab1f0c3bbc7720d68b940ae3df9d3.jpeg
+        bind: true
+        discountValue: 50
+        endTime: 1673350680000
+        startTime: 1663329351000
       priceManagement:
         activityDesc: 便宜又实惠啦快来看看啦
         discountValue: 75
@@ -258,29 +287,18 @@
     backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
     userInfo:
       accountCouponInfo:
-        availNum: 1
+        availNum: 0
         cardData:
           cardList: []
           cashList: []
           couponList: []
-          overtimeCardList:
-          - ableType: 1
-            classify: 3
-            cornerMark: ''
-            couponType: 31
-            couponValue: 2
-            doorsill: -1
-            doorsillUnit: 0
-            id: 5342631
-            limitGear: []
-            validityEnd: 1672243199000
-            validityStart: 1672070400000
+          overtimeCardList: []
         cardNum: 0
         cashCouponNum: 0
         couponNum: 0
-        overTimeNum: 1
-        totalNum: 1
-      balance: 1000078454
+        overTimeNum: 0
+        totalNum: 0
+      balance: 1000073449
       bind: true
       freeGear: []
       rechargeConfig:
@@ -309,7 +327,7 @@
           giveRate: 26
           id: 4
       userLevel: 2
-      userPoint: 690
+      userPoint: 1390
   msg: 操作成功
 - code: 201
   data:
@@ -319,34 +337,54 @@
     codeUrl: ''
     errCode: ''
     errCodeDes: ''
-    nonceStr: PkidniGViIYYg6Bf
+    nonceStr: Whj3kvLc8qXgg9Dn
     openid: ''
-    orderId: W0000022122816081091964679004162
+    orderId: W0000022122916082876901539225602
     orderInfo: ''
     outOrderId: ''
-    package: prepay_id=wx28223445502435d29b909a87c6831f0000
+    package: prepay_id=wx291024018561088d475b6848c4ec810000
     partnerid: ''
-    paySign: 664D558A27E1520D98D352290DA5F724
+    paySign: 9283A3815A30A0626C61CF216A601670
     payTypeEnum: {}
     prepayId: ''
     resultCode: SUCCESS
     signType: MD5
-    timeStamp: '1672238084'
+    timeStamp: '1672280641'
   msg: 操作成功
-- code: 10602
+- code: 200
   data: {}
-  msg: 订单不存在
+  msg: 操作成功
 - code: 200
   data:
     activityInfo:
       activityAntiSeat: {}
       activityPopUp: {}
       activitySellCard:
-        configMap: {}
+        accountTag: 最近30天，订单数>=8单
+        configMap:
+          '1':
+            backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/9562d2a46b4b68e9a68e4ae047dee7d0.png
+            bannerImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/a377328d1e963ad6b86d3ab87c8f01a6.png
+            cardMoney: 1000
+            description: "1.活动时间：2022年12月8日-12月12日； \n2.本产品参与世界杯竞猜返单礼活动（猜中冠军有机会获得加赠一张5次卡）；\n\
+              3.购买说明：每个账号限购1单，购买后不支持退款，逾期不补； \n4.使用时间：购买成功即可使用，有效期40天，可在乐摩吧公众号【个人中心】-【卡包】内查看；\
+              \ \n5.使用次数：每个账号每天限用4次，本套餐最多可抵用5次，过期自动失效； \n6.使用方式：购买成功后扫描椅子二维码进入支付页，选择第二档位，点击下方“次卡”并成功支付即可启动椅子；\
+              \ \n7.使用范围：本活动不与乐摩吧其他同时段活动同享，机场、高铁、火车站不可用； \n8.转赠说明：服务开通后，每个卡包在未使用情况下可赠送且仅限成功转赠1位好友，不可再次转让，禁止代扫、兑现、找零等操作；\
+              \ \n9.如违反乐摩吧《服务协议》守则，不当使用卡券，乐摩吧将有权停卡封号，对此造成的损失由用户承担,乐摩吧保留对违法使用行为的法律责任追究；\
+              \ \n10.因不同地区不同机器运营状况不同，具体使用场景的价格及分钟数以现场扫码后显示出的价格和分钟数为准，介意者慎买； \n11.活动咨询电话：400-859-3566。"
+            deviceId: '101900003'
+            gear: '1'
+            sellCardActivityId: 35
+            totalQty: 10
         required: 1
       addPurchaseList: []
       freeDiscount: {}
-      memberDay: {}
+      memberDay:
+        backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/3dcab1f0c3bbc7720d68b940ae3df9d3.jpeg
+        bind: true
+        discountValue: 50
+        endTime: 1673350680000
+        startTime: 1663329351000
       priceManagement:
         activityDesc: 便宜又实惠啦快来看看啦
         discountValue: 75
@@ -390,29 +428,18 @@
     backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
     userInfo:
       accountCouponInfo:
-        availNum: 1
+        availNum: 0
         cardData:
           cardList: []
           cashList: []
           couponList: []
-          overtimeCardList:
-          - ableType: 1
-            classify: 3
-            cornerMark: ''
-            couponType: 31
-            couponValue: 2
-            doorsill: -1
-            doorsillUnit: 0
-            id: 5342631
-            limitGear: []
-            validityEnd: 1672243199000
-            validityStart: 1672070400000
+          overtimeCardList: []
         cardNum: 0
         cashCouponNum: 0
         couponNum: 0
-        overTimeNum: 1
-        totalNum: 1
-      balance: 1000078454
+        overTimeNum: 0
+        totalNum: 0
+      balance: 1000073449
       bind: true
       freeGear: []
       rechargeConfig:
@@ -441,7 +468,7 @@
           giveRate: 26
           id: 4
       userLevel: 2
-      userPoint: 690
+      userPoint: 1490
   msg: 操作成功
 - code: 201
   data:
@@ -453,9 +480,9 @@
     errCodeDes: ''
     nonceStr: ''
     openid: ''
-    orderId: A0000022122816081092019792158722
+    orderId: A0000022122916082877109073387522
     orderInfo: ''
-    outOrderId: '2022122822001480751425989570'
+    outOrderId: '2022122922001480751426499689'
     package: ''
     partnerid: ''
     paySign: ''
@@ -465,6 +492,396 @@
     signType: ''
     timeStamp: ''
   msg: 操作成功
-- code: 10602
+- code: 200
   data: {}
-  msg: 订单不存在
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp:
+        activityImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/dev/upload/images/2022-10-12/7ccab6b1a2a4f13fcd0913f2db0a3140.png
+        activityReceiveImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/dev/upload/images/2022-10-12/787d09e4419ebe823d718925d88cf874.png
+        activityType: 3
+        couponInfos:
+        - availTime: []
+          classify: 1
+          cornerMark: 帅哥是我
+          couponCost: 1000
+          couponName: 测试第二
+          couponNum: -1
+          couponType: 11
+          couponValue: 999
+          doorsill: 888
+          doorsillUnit: 1
+          getWay: -1
+          limitGear: []
+          rangeMax: -1
+          rangeMin: -1
+          useDescription: '11111111111111'
+          validityEnd: 1664553600000
+          validityStart: 1664500317000
+          way: 1
+        - availTime:
+          - endTime: '23:59:00'
+            startTime: 00:00:00
+          classify: 1
+          cornerMark: '111'
+          couponCost: 10
+          couponName: 帅哥满减券
+          couponNum: -1
+          couponType: 11
+          couponValue: 10000
+          doorsill: 100
+          doorsillUnit: 1
+          getWay: -1
+          limitGear: []
+          rangeMax: -1
+          rangeMin: -1
+          useDescription: '11111111111'
+          validityEnd: 1673668212000
+          validityStart: 1665719407000
+          way: 1
+        h5Url: '11111111'
+        id: 3
+        position: '3'
+        trigger: true
+        wxAliUrl: '11111111111'
+        wxAppletsUrl: '11111111111'
+      activitySellCard:
+        accountTag: 最近30天，订单数>=8单
+        configMap:
+          '1':
+            backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/9562d2a46b4b68e9a68e4ae047dee7d0.png
+            bannerImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/a377328d1e963ad6b86d3ab87c8f01a6.png
+            cardMoney: 1000
+            description: "1.活动时间：2022年12月8日-12月12日； \n2.本产品参与世界杯竞猜返单礼活动（猜中冠军有机会获得加赠一张5次卡）；\n\
+              3.购买说明：每个账号限购1单，购买后不支持退款，逾期不补； \n4.使用时间：购买成功即可使用，有效期40天，可在乐摩吧公众号【个人中心】-【卡包】内查看；\
+              \ \n5.使用次数：每个账号每天限用4次，本套餐最多可抵用5次，过期自动失效； \n6.使用方式：购买成功后扫描椅子二维码进入支付页，选择第二档位，点击下方“次卡”并成功支付即可启动椅子；\
+              \ \n7.使用范围：本活动不与乐摩吧其他同时段活动同享，机场、高铁、火车站不可用； \n8.转赠说明：服务开通后，每个卡包在未使用情况下可赠送且仅限成功转赠1位好友，不可再次转让，禁止代扫、兑现、找零等操作；\
+              \ \n9.如违反乐摩吧《服务协议》守则，不当使用卡券，乐摩吧将有权停卡封号，对此造成的损失由用户承担,乐摩吧保留对违法使用行为的法律责任追究；\
+              \ \n10.因不同地区不同机器运营状况不同，具体使用场景的价格及分钟数以现场扫码后显示出的价格和分钟数为准，介意者慎买； \n11.活动咨询电话：400-859-3566。"
+            deviceId: '101900003'
+            gear: '1'
+            sellCardActivityId: 35
+            totalQty: 10
+        required: 1
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay:
+        backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/3dcab1f0c3bbc7720d68b940ae3df9d3.jpeg
+        bind: true
+        discountValue: 50
+        endTime: 1673350680000
+        startTime: 1663329351000
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+    areaInfo:
+      cinemaInfo: {}
+      paymentTypeList:
+      - id: 1
+        paymentKey: '101'
+        paymentName: 微信支付
+        paymentValue: '1'
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 0
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 0
+      balance: 1000073449
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 1590
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp:
+        activityImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/dev/upload/images/2022-10-12/7ccab6b1a2a4f13fcd0913f2db0a3140.png
+        activityReceiveImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/dev/upload/images/2022-10-12/787d09e4419ebe823d718925d88cf874.png
+        activityType: 3
+        couponInfos:
+        - availTime: []
+          classify: 1
+          cornerMark: 帅哥是我
+          couponCost: 1000
+          couponName: 测试第二
+          couponNum: -1
+          couponType: 11
+          couponValue: 999
+          doorsill: 888
+          doorsillUnit: 1
+          getWay: -1
+          limitGear: []
+          rangeMax: -1
+          rangeMin: -1
+          useDescription: '11111111111111'
+          validityEnd: 1664553600000
+          validityStart: 1664500317000
+          way: 1
+        - availTime:
+          - endTime: '23:59:00'
+            startTime: 00:00:00
+          classify: 1
+          cornerMark: '111'
+          couponCost: 10
+          couponName: 帅哥满减券
+          couponNum: -1
+          couponType: 11
+          couponValue: 10000
+          doorsill: 100
+          doorsillUnit: 1
+          getWay: -1
+          limitGear: []
+          rangeMax: -1
+          rangeMin: -1
+          useDescription: '11111111111'
+          validityEnd: 1673668212000
+          validityStart: 1665719407000
+          way: 1
+        h5Url: '11111111'
+        id: 3
+        position: '3'
+        trigger: true
+        wxAliUrl: '11111111111'
+        wxAppletsUrl: '11111111111'
+      activitySellCard:
+        accountTag: 最近30天，订单数>=8单
+        configMap:
+          '1':
+            backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/9562d2a46b4b68e9a68e4ae047dee7d0.png
+            bannerImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/a377328d1e963ad6b86d3ab87c8f01a6.png
+            cardMoney: 1000
+            description: "1.活动时间：2022年12月8日-12月12日； \n2.本产品参与世界杯竞猜返单礼活动（猜中冠军有机会获得加赠一张5次卡）；\n\
+              3.购买说明：每个账号限购1单，购买后不支持退款，逾期不补； \n4.使用时间：购买成功即可使用，有效期40天，可在乐摩吧公众号【个人中心】-【卡包】内查看；\
+              \ \n5.使用次数：每个账号每天限用4次，本套餐最多可抵用5次，过期自动失效； \n6.使用方式：购买成功后扫描椅子二维码进入支付页，选择第二档位，点击下方“次卡”并成功支付即可启动椅子；\
+              \ \n7.使用范围：本活动不与乐摩吧其他同时段活动同享，机场、高铁、火车站不可用； \n8.转赠说明：服务开通后，每个卡包在未使用情况下可赠送且仅限成功转赠1位好友，不可再次转让，禁止代扫、兑现、找零等操作；\
+              \ \n9.如违反乐摩吧《服务协议》守则，不当使用卡券，乐摩吧将有权停卡封号，对此造成的损失由用户承担,乐摩吧保留对违法使用行为的法律责任追究；\
+              \ \n10.因不同地区不同机器运营状况不同，具体使用场景的价格及分钟数以现场扫码后显示出的价格和分钟数为准，介意者慎买； \n11.活动咨询电话：400-859-3566。"
+            deviceId: '101900003'
+            gear: '1'
+            sellCardActivityId: 35
+            totalQty: 10
+        required: 1
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay:
+        backImg: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-27/3dcab1f0c3bbc7720d68b940ae3df9d3.jpeg
+        bind: true
+        discountValue: 50
+        endTime: 1673350680000
+        startTime: 1663329351000
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+    areaInfo:
+      cinemaInfo: {}
+      paymentTypeList:
+      - id: 1
+        paymentKey: '101'
+        paymentName: 微信支付
+        paymentValue: '1'
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 0
+        cardData:
+          cardList: []
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 0
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 0
+      balance: 1000073449
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 1590
+  msg: 操作成功
+- code: 10405
+  data: {}
+  msg: 很抱歉，您来晚啦~
+- code: 10405
+  data: {}
+  msg: 很抱歉，您来晚啦~
+- code: 10405
+  data: {}
+  msg: 很抱歉，您来晚啦~
+- code: 10405
+  data: {}
+  msg: 很抱歉，您来晚啦~
+- code: 200
+  data: GR000422122916083053269547786244
+  msg: 操作成功
+- code: 200
+  data: GR000422122916083382013516881921
+  msg: 操作成功
+- code: 200
+  data: GR000422122916083399599688294402
+  msg: 操作成功
+- code: 404
+  data: null
+  msg: 'Failed to handle request [POST http://toc-live-test.lemobar.cn/springx-lemobar-toc/api/activitygift/receive?exchangeCode=ric8sbabdshuga&giftId=116]:
+    404 NOT_FOUND'
+- code: 404
+  data: null
+  msg: 'Failed to handle request [POST http://toc-live-test.lemobar.cn/springx-lemobar-toc/api/activitygift/receive?exchangeCode=ric8sbabdshuga&giftId=116]:
+    404 NOT_FOUND'
+- code: 404
+  data: null
+  msg: 'Failed to handle request [POST http://toc-live-test.lemobar.cn/springx-lemobar-toc/api/activitygift/receive?exchangeCode=ric8sbabdshuga&giftId=116]:
+    404 NOT_FOUND'
+- code: 404
+  data: null
+  msg: 'Failed to handle request [POST http://toc-live-test.lemobar.cn/springx-lemobar-toc/api/activitygift/receive?exchangeCode=ric8sbabdshuga&giftId=116]:
+    404 NOT_FOUND'
+- code: 503
+  data: null
+  msg: 'Failed to handle request [POST http://toc-live-test.lemobar.cn/springx-lemobar-toc/api/activitygift/receive?exchangeCode=ric8sbabdshuga&giftId=116]:
+    503 SERVICE_UNAVAILABLE "Unable to find instance for springx-lemobar-toc"'
+- code: 200
+  data: GR000422122916083508481806868487
+  msg: 操作成功
+- code: 200
+  data: GR000422122916083529829388165123
+  msg: 操作成功
+- code: 200
+  data: GR000422122916083536039348838406
+  msg: 操作成功
+- code: 200
+  data: GR000422122916083560757430886403
+  msg: 操作成功
+- code: 200
+  data: GR000422122916083637971463741443
+  msg: 操作成功
+- code: 10002
+  data: {}
+  msg: 设备不存在
+- code: 10002
+  data: {}
+  msg: 支付组不存在
