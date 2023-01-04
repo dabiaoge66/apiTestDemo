@@ -1,7 +1,7 @@
 import requests
 from commons.yaml_utils import write_yaml, read_test_case
 from config.utils import CaseEnum, FileEnum
-from validate.assert_utils import validate_main
+from validate.assert_utils import assertions
 
 
 class RequestsUtils:
@@ -29,12 +29,18 @@ class RequestsUtils:
 
     @staticmethod
     def module_method(base_url, index):
+        """
+        用例执行步骤的示例
+        :param base_url: pytest配置文件中设置的base_url,固定用法
+        :param index: 用例id
+        :return:
+        """
         # 读取接口用例文件
         data = read_test_case(FileEnum.CREATE.value, index)
         # 发送请求
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
         # 断言
-        result = validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
         print(f'断言结果：{result}')
 
     @staticmethod
@@ -42,5 +48,5 @@ class RequestsUtils:
         """浅浅测试一下"""
         data = read_test_case(FileEnum.DEBUG.value, index)
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
-        result = validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
         print(f'断言结果：{result}')

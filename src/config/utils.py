@@ -3,6 +3,7 @@ from enum import Enum
 
 
 class CaseEnum(Enum):
+    """用例文件必要字段的枚举类"""
     # 用例要素
     FEATURE = 'feature'
     STORY = 'story'
@@ -35,6 +36,7 @@ class CaseEnum(Enum):
 
 
 class FileEnum(Enum):
+    """必要配置文件的路径枚举类"""
     # 数据库配置文件路径
     DB_CONF = "/data/database_conf.yaml"
     # 接口数据中转文件路径
@@ -45,17 +47,34 @@ class FileEnum(Enum):
     CREATE = "/test_case/createOrder.yaml"
     # 用于调试的用例文件路径
     DEBUG = "/test_case/forTest.yaml"
+    # 日志文件存放路径
+    LOG_PATH = '/logs/log'
+
+
+class LogEnum(Enum):
+    """
+    日志配置必要字段的枚举类
+    日志等级说明: debug < info < warning < warn < error < exception < critical
+    """
+    # 日志等级
+    LOG_LV = 'INFO'
+    # 写入等级
+    FILE_LV = 'INFO'
+    # 输出等级
+    OUT_LV = 'INFO'
+    # 日志格式
+    FMT = '%(asctime)s -%(name)s -%(levelname)s -%(filename)s -%(levelno)s -%(message)s'
 
 
 def get_project_path(path):
     """
-    得到项目路径
-    :param path:文件路径
+    获取项目文件路径
+    :param path:文件相对路径
     """
-    # 当前绝对路径
+    # 项目路径
     project_path = os.path.join(
         os.path.dirname(__file__),
         "..",
     )
-    # 返回拼接路径
+    # 返回拼接的路径
     return project_path + path

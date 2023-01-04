@@ -18,8 +18,11 @@ def read_yaml(file_path=FileEnum.EXTRACT.value, path=None):
         if path is None:
             return value
         else:
-            # jsonpath返回的是一个列表，取第一个值返回，方便操作
-            return jsonpath.jsonpath(value, path)[0]
+            try:
+                # jsonpath返回的是一个列表，取第一个值返回，方便操作
+                return jsonpath.jsonpath(value, path)[0]
+            except TypeError:
+                return jsonpath.jsonpath(value, path)
 
 
 def write_yaml(data, file_path=FileEnum.EXTRACT.value):
@@ -55,15 +58,18 @@ def read_json(path, file_path=FileEnum.DATA.value):
         data = json.dumps(eval(f.read()))
         data_list = json.loads(data)
         # 提取值
-        return jsonpath.jsonpath(data_list, path)[0]
+        try:
+            return jsonpath.jsonpath(data_list, path)[0]
+        except TypeError:
+            return jsonpath.jsonpath(data_list, path)
 
 
 def read_test_case(file_path, index=None):
     """
-    读取用例文件并实现ddt数据驱动
-    :param index: 用例索引
+    读取用例文件
+    :param index: 用例id
     :param file_path:yaml文件的路径
-    :return: 返回一个用例内容
+    :return: 返回用例内容
     """
     with open(get_project_path(file_path), encoding="utf-8", mode="r") as f:
         value = yaml.load(f, yaml.FullLoader)
@@ -88,7 +94,12 @@ def read_test_case(file_path, index=None):
 
 
 def reassignment(parameter, index):
-    """用例数据重新赋值"""
+    """
+    对用例数据进行数据驱动（根据不同数据类型重新赋值）
+    :param parameter: yaml读出的用例数据
+    :param index: 用例id
+    :return:
+    """
     # 创建数据库处理对象
     opdb = OperateDB()
     for payload in parameter:
@@ -96,13 +107,19 @@ def reassignment(parameter, index):
             handle_value(parameter=parameter, payload=payload, index=index)
             continue
         elif parameter[payload].startswith(CaseEnum.SQL.value):  # sql开头则去操作数据库
-            handle_sql(params=parameter, payload=payload, opdb=opdb)
+            handle_sql(parameter=parameter, payload=payload, opdb=opdb)
         elif parameter[payload] == 'time':  # 值为time则赋值当前时间戳
             parameter[payload] = round(time.time() * 1000)
 
 
 def handle_value(parameter, payload, index):
-    """重新赋值"""
+    """
+    对使用json提取器的用例数据重新赋值
+    :param parameter: yaml读出的用例数据
+    :param payload: 当前遍历的键
+    :param index: 用例id
+    :return:
+    """
     try:
         # 先读取data.json
         parameter[payload] = read_json(parameter[payload])
@@ -111,13 +128,19 @@ def handle_value(parameter, payload, index):
         parameter[payload] = read_yaml(path=parameter[payload].replace('$', f'$[{index - 1}]'))
 
 
-def handle_sql(params, payload, opdb):
-    """处理sql"""
-    if params[payload].split(',')[0] == CaseEnum.PRINT.value:  # 打印sql执行结果
-        check_data(opdb.handle_db(params[payload].split(',')[1]))
-    elif params[payload].split(',')[0] == CaseEnum.ASSIGNMENT.value:  # 赋值当前查询结果
-        params[payload] = opdb.handle_db(params[payload].split(',')[1])[0]
-    elif params[payload].split(',')[0] == CaseEnum.HANDLE.value:  # 仅执行
-        opdb.handle_db(params[payload].split(',')[1])
+def handle_sql(parameter, payload, opdb):
+    """
+    对使用sql语句的的用例数据进行处理
+    :param parameter: yaml读出的用例数据
+    :param payload: 当前遍历的键
+    :param opdb: 数据库处理对象
+    :return:
+    """
+    if parameter[payload].split(',')[0] == CaseEnum.PRINT.value:  # 打印sql执行结果
+        check_data(opdb.handle_db(parameter[payload].split(',')[1]))
+    elif parameter[payload].split(',')[0] == CaseEnum.ASSIGNMENT.value:  # 赋值当前查询结果
+        parameter[payload] = opdb.handle_db(parameter[payload].split(',')[1])[0]
+    elif parameter[payload].split(',')[0] == CaseEnum.HANDLE.value:  # 仅执行
+        opdb.handle_db(parameter[payload].split(',')[1])
     else:
         raise 'sql类型错误，检查用例文件'

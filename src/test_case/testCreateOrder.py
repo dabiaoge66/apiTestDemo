@@ -4,10 +4,7 @@ from commons.requests_uitils import RequestsUtils
 
 
 class TestCreateOrder(object):
-    """
-    扫码下单测试类
-    索引：代表用例文件索引
-    """
+    """扫码下单测试类（传入的索引为用例id）"""
 
     def test_nothing_balance(self, base_url):
         """无卡券无活动(纯余额)"""
