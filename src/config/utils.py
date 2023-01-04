@@ -1,3 +1,4 @@
+import os
 from enum import Enum
 
 
@@ -32,3 +33,30 @@ class CaseEnum(Enum):
     ASSIGNMENT = 'sql_assignment'
     HANDLE = 'sql_handle'
 
+
+class FileEnum(Enum):
+    # 数据库配置文件路径
+    DB_CONF = "/data/database_conf.yaml"
+    # 接口数据中转文件路径
+    EXTRACT = "/extract.yaml"
+    # json数据文件路径
+    DATA = "/data/data.json"
+    # createOrder接口用例文件路径
+    CREATE = "/test_case/createOrder.yaml"
+    # 用于调试的用例文件路径
+    DEBUG = "/test_case/forTest.yaml"
+
+
+
+def get_project_path(path):
+    """
+    得到项目路径
+    :param path:文件路径
+    """
+    # 当前绝对路径
+    project_path = os.path.join(
+        os.path.dirname(__file__),
+        "..",
+    )
+    # 返回拼接路径
+    return project_path + path

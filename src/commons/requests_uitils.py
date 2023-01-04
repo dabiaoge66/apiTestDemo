@@ -1,7 +1,7 @@
 import requests
 from commons.yaml_utils import write_yaml, read_test_case
-from config.utils import CaseEnum
-from validate.assert_result import validate_main
+from config.utils import CaseEnum, FileEnum
+from validate.assert_utils import validate_main
 
 
 class RequestsUtils:
@@ -30,7 +30,7 @@ class RequestsUtils:
     @staticmethod
     def module_method(base_url, index):
         # 读取接口用例文件
-        data = read_test_case("test_case/createOrder.yaml", index)
+        data = read_test_case(FileEnum.CREATE, index)
         # 发送请求
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
         # 断言
@@ -39,6 +39,6 @@ class RequestsUtils:
     @staticmethod
     def for_test(base_url, index):
         """浅浅测试一下"""
-        data = read_test_case("test_case/forTest.yaml", index)
+        data = read_test_case(FileEnum.DEBUG, index)
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
         validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])

@@ -1,4 +1,5 @@
-- feature: 领取礼包0
+- id: 0
+  feature: 领取礼包
   story: 领取礼包接口
   title: 领取
   requests:
@@ -12,7 +13,8 @@
   validate:
     assert_path: $.msg
     assert_field: 操作成功
-- feature: 测试sql
+- id: 1
+  feature: 测试sql
   story: sql操作
   title: sql
   requests:

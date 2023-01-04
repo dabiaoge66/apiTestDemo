@@ -1,0 +1,14 @@
+- id: 0
+  connect_name: toC重构
+  table_name: Null
+  host: 192.168.1.6
+  user: tob
+  password: tob_lmb@123
+  charset: utf8
+- id: 1
+  connect_name: test_demo[1]
+  table_name: lmb_promotion
+  host: 192.168.1.6
+  user: tob
+  password: tob_lmb@123
+  charset: utf8
