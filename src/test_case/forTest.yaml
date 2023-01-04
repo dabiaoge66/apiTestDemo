@@ -8,11 +8,9 @@
     headers:
       uid: $.wx_uid[2]
     params:
-      exchangeCode: g9iuyw2nfdpuqa
+      exchangeCode: sps8vfpgvtxnda
       giftId: "142"
-  validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+  validate: Null
 - id: 1
   feature: 测试sql
   story: sql操作

@@ -47,7 +47,6 @@ class FileEnum(Enum):
     DEBUG = "/test_case/forTest.yaml"
 
 
-
 def get_project_path(path):
     """
     得到项目路径

@@ -6,7 +6,7 @@ from config.utils import CaseEnum, get_project_path, FileEnum
 from data.database_utils import check_data, OperateDB
 
 
-def read_yaml(file_path=FileEnum.EXTRACT, path=None):
+def read_yaml(file_path=FileEnum.EXTRACT.value, path=None):
     """
     读取数据
     :param file_path: 文件路径
@@ -22,7 +22,7 @@ def read_yaml(file_path=FileEnum.EXTRACT, path=None):
             return jsonpath.jsonpath(value, path)[0]
 
 
-def write_yaml(data, file_path=FileEnum.EXTRACT):
+def write_yaml(data, file_path=FileEnum.EXTRACT.value):
     """
     写入数据(a+:追加)
     :param data:
@@ -33,7 +33,7 @@ def write_yaml(data, file_path=FileEnum.EXTRACT):
         yaml.dump([data], stream=f, allow_unicode=True)
 
 
-def clear_yaml(file_path=FileEnum.EXTRACT):
+def clear_yaml(file_path=FileEnum.EXTRACT.value):
     """
     清空yaml文件
     :param file_path:
@@ -43,7 +43,7 @@ def clear_yaml(file_path=FileEnum.EXTRACT):
 
 
 #
-def read_json(path, file_path=FileEnum.DATA):
+def read_json(path, file_path=FileEnum.DATA.value):
     """
     读取json数据
     :param file_path: 文件路径
@@ -76,12 +76,13 @@ def read_test_case(file_path, index=None):
         # 给params重新赋值
         params = value[index][CaseEnum.REQUESTS.value][CaseEnum.PARAMS.value]
         reassignment(params, index)
-        # 给assert_path重新赋值
-        assert_path = value[index][CaseEnum.VALIDATE.value][CaseEnum.ACTUAL.value]
-        reassignment(assert_path, index)
-        # 给assert_field重新赋值
-        assert_field = value[index][CaseEnum.VALIDATE.value][CaseEnum.EXPECT.value]
-        reassignment(assert_field, index)
+        if value[index][CaseEnum.VALIDATE.value] is not None:
+            # 给assert_path重新赋值
+            assert_path = value[index][CaseEnum.VALIDATE.value][CaseEnum.ACTUAL.value]
+            reassignment(assert_path, index)
+            # 给assert_field重新赋值
+            assert_field = value[index][CaseEnum.VALIDATE.value][CaseEnum.EXPECT.value]
+            reassignment(assert_field, index)
         # 返回用例数据
         return value[index]
 
@@ -91,7 +92,7 @@ def reassignment(parameter, index):
     # 创建数据库处理对象
     opdb = OperateDB()
     for payload in parameter:
-        if parameter[payload].startswith('$'):  # $开头则去data.json获取上一个接口返回值里取值
+        if parameter[payload].startswith('$'):  # $开头则调赋值方法
             handle_value(parameter=parameter, payload=payload, index=index)
             continue
         elif parameter[payload].startswith(CaseEnum.SQL.value):  # sql开头则去操作数据库
@@ -103,6 +104,7 @@ def reassignment(parameter, index):
 def handle_value(parameter, payload, index):
     """重新赋值"""
     try:
+        # 先读取data.json
         parameter[payload] = read_json(parameter[payload])
     except TypeError:
         # data.json没取到则取上一个接口响应值，索引-1

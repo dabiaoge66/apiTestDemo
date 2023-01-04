@@ -30,15 +30,17 @@ class RequestsUtils:
     @staticmethod
     def module_method(base_url, index):
         # 读取接口用例文件
-        data = read_test_case(FileEnum.CREATE, index)
+        data = read_test_case(FileEnum.CREATE.value, index)
         # 发送请求
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
         # 断言
-        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        result = validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        print(f'断言结果：{result}')
 
     @staticmethod
     def for_test(base_url, index):
         """浅浅测试一下"""
-        data = read_test_case(FileEnum.DEBUG, index)
+        data = read_test_case(FileEnum.DEBUG.value, index)
         req = RequestsUtils.seed_requests(data=data, base_url=base_url)
-        validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        result = validate_main(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        print(f'断言结果：{result}')

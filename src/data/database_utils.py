@@ -13,7 +13,7 @@ def check_data(data_tuple):
 
 
 class OperateDB:
-    def __init__(self, path=FileEnum.DB_CONF):
+    def __init__(self, path=FileEnum.DB_CONF.value):
         """
         连接数据库
         :param: path: 文件路径
