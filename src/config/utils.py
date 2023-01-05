@@ -38,7 +38,7 @@ class CaseEnum(Enum):
 class FileEnum(Enum):
     """必要配置文件的路径枚举类"""
     # 数据库配置文件路径
-    DB_CONF = "/data/database_conf.yaml"
+    DB_CONF = "/config/database_conf.yaml"
     # 接口数据中转文件路径
     EXTRACT = "/extract.yaml"
     # json数据文件路径
@@ -48,7 +48,7 @@ class FileEnum(Enum):
     # 用于调试的用例文件路径
     DEBUG = "/test_case/forTest.yaml"
     # 日志配置文件路径
-    LOG_COF = '/log/log_conf.yaml'
+    LOG_COF = '/config/log_conf.yaml'
 
 
 class LogEnum(Enum):

@@ -10,8 +10,15 @@
     params:
       deviceId: $.device_id[0]
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+      status: code
+    compare_method:
+      path: is
+      status: is
+    assert_field:
+      path: 操作成功
+      status: '400'
 
 - id: 1
   feature: 支付开机
@@ -29,8 +36,12 @@
       timestamp: time
       useBalance: $.data.areaInfo.priceGearList[1].price
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功
 
 - id: 2
   feature: 支付开机
@@ -44,8 +55,12 @@
     params:
       deviceId: $.device_id[0]
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功
 
 - id: 3
   feature: 支付开机
@@ -64,8 +79,12 @@
       payChannel: $.pay_channel[0]
       useCashMoney: $.data.areaInfo.priceGearList[1].price
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功
 
 - id: 4
   feature: 支付开机
@@ -79,8 +98,12 @@
     params:
       guid: $.data.orderId
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功
 
 - id: 5
   feature: 支付开机
@@ -94,8 +117,12 @@
     params:
       deviceId: $.device_id[0]
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功
 
 - id: 6
   feature: 支付开机
@@ -114,8 +141,12 @@
       payChannel: $.pay_channel[1]
       useCashMoney: $.data.areaInfo.priceGearList[1].price
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功
 
 - id: 7
   feature: 支付开机
@@ -129,5 +160,9 @@
     params:
       guid: $.data.orderId
   validate:
-    assert_path: $.msg
-    assert_field: 操作成功
+    assert_method:
+      path: $.msg
+    compare_method:
+      path: is
+    assert_field:
+      path: 操作成功

@@ -1,13 +1,12 @@
 import pytest
-
-from commons.yaml_utils import clear_yaml
+from commons.yaml_utils import YamlOpt
 
 
 # @pytest.fixture(scope='session', autouse=True, params=['test1', 'test2'], name='cm')
 @pytest.fixture(scope='session', autouse=True)
 def case_control():
     """用例执行管理"""
-    clear_yaml()  # 清空yaml
+    YamlOpt().clear_yaml()  # 清空yaml
     # yield request.param
     yield
 

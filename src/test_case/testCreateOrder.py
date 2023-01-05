@@ -1,5 +1,5 @@
 import time
-import pytest
+# import pytest
 from commons.requests_uitils import RequestsUtils
 from log.log_utils import get_log
 
@@ -42,5 +42,5 @@ class TestCreateOrder(object):
         RequestsUtils().module_method(base_url, 7)
 
 
-if __name__ == '__main__':
-    pytest.main(['-vs', 'testCreateOrder.py'])
+# if __name__ == '__main__':
+#     pytest.main(['-vs', 'testCreateOrder.py'])
