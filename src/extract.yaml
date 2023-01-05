@@ -2227,3 +2227,4372 @@
       userLevel: 2
       userPoint: 5846
   msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 74
+        cornerMarkIcon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-23/bc7f257e56c5d9ae41d6b29d47189c03.png
+        description: 久坐上班行不行，专属按摩我看行
+        duration: 5
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-23/55342605a464e3914717f41cda9dd659.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-23/97f438cd6e0382d80cc50d2b70d552d9.png
+        name: 腰背舒展
+        price: 800
+        recommend: true
+        selected: false
+      - addPurchaseDiscountId: 74
+        cornerMarkIcon: ''
+        description: 低头一族伤不起，专属按摩拯救你
+        duration: 6
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-23/5070128190955f3f0843f6bc0a19c1b4.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2022-12-23/97f438cd6e0382d80cc50d2b70d552d9.png
+        name: 肩颈放松
+        price: 900
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList: []
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 2
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 0
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 0
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear: []
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 0
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: '123'
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 500
+  data: null
+  msg: 'Failed to handle request [GET http://toc-live-test.lemobar.cn/springx-lemobar-toc/api/product?deviceId=101900003]:
+    finishConnect(..) failed: Connection timed out: /192.168.5.5:56081'
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功
+- code: 200
+  data:
+    activityInfo:
+      activityAntiSeat: {}
+      activityPopUp: {}
+      activitySellCard: {}
+      addPurchaseList:
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位一描述档位一描述
+        duration: 2
+        gearId: 1
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/7cbef5e48a0df7e1b5cd791c84538e11.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '1111'
+        price: 200
+        recommend: false
+        selected: false
+      - addPurchaseDiscountId: 100
+        cornerMarkIcon: ''
+        description: 档位二描述档位二描述
+        duration: 5
+        gearId: 2
+        icon: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/5b8fafdb242337ca936b53bdf4520527.png
+        img: http://lmb-tob-1251009888.cos.ap-shanghai.myqcloud.com/test/upload/images/2023-01-05/1b5d868b8dba91578d5cdd60c46ae742.png
+        name: '2222'
+        price: 500
+        recommend: false
+        selected: false
+      freeDiscount: {}
+      memberDay: {}
+      priceManagement:
+        activityDesc: 便宜又实惠啦快来看看啦
+        discountValue: 75
+        id: 9
+        priceGroupId: 481
+        priceTitle: 调价test-01
+        viewShowType: 2
+      secondDiscount: {}
+      zeroFlag: false
+    areaInfo:
+      areaBuried:
+        areaGrade: C
+        areaId: 524749
+        areaName: qa测试专属网点-1
+        areaType: 其他
+      cinemaInfo: {}
+      paymentTypeList: []
+      priceGearList:
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 缓解疲劳
+        id: 1426
+        price: 1
+        recommend: false
+        sort: 1
+      - defaultGear: true
+        duration: 1
+        gearDesc: ''
+        gearName: 焕发活力
+        id: 1427
+        price: 1001
+        recommend: false
+        sort: 2
+      - defaultGear: false
+        duration: 1
+        gearDesc: ''
+        gearName: 深度舒压
+        id: 1428
+        price: 2001
+        recommend: true
+        sort: 3
+    backImg: https://images.lemobar.com/paymentBrandImg/20220629/20220629103330.png
+    userInfo:
+      accountCouponInfo:
+        availNum: 2
+        cardData:
+          cardList:
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105753884325355523
+            id: 803223
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          - ableType: 200
+            ableTypeName: ''
+            availTime: []
+            cardId: 49
+            cardStatus: 0
+            cashBatchId: -1
+            classify: 4
+            couponName: 智能选卡1
+            couponNum: -1
+            couponType: 41
+            couponTypeName: 次卡
+            exchangeStatus: -1
+            guid: GR000423010416105777855989063684
+            id: 803224
+            isLimitKnead: 0
+            limitGear: []
+            limitKneadNum: -1
+            limitType: 4
+            paymentTime: ''
+            todayUseNum: 0
+            totalQty: 1
+            useDescription: ''
+            usedQty: 0
+            validityEnd: 1672934399000
+            validityStart: 1672761600000
+          cashList: []
+          couponList: []
+          overtimeCardList: []
+        cardNum: 2
+        cashCouponNum: 0
+        couponNum: 0
+        overTimeNum: 0
+        totalNum: 2
+      balance: 8832335
+      bind: true
+      freeGear:
+      - 1
+      - 2
+      - 3
+      rechargeConfig:
+        defaultSelectId: 0
+        firstCharge: 0
+        rechargeKey: 46a32ebd002748828919d7c4603b62b5
+        rechargeLevel:
+        - cost: 3000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 10
+          id: 1
+        - cost: 5000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 16
+          id: 2
+        - cost: 10000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 20
+          id: 3
+        - cost: 20000
+          defaultSelect: false
+          firstCharge: false
+          giveRate: 26
+          id: 4
+      userLevel: 1
+      userPoint: 5846
+  msg: 操作成功

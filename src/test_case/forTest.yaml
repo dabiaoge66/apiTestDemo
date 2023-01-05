@@ -38,4 +38,4 @@
       status: not
     assert_field:
       path: 作成
-      status: "400"
+      status: '400'

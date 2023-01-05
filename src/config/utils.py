@@ -47,8 +47,8 @@ class FileEnum(Enum):
     CREATE = "/test_case/createOrder.yaml"
     # 用于调试的用例文件路径
     DEBUG = "/test_case/forTest.yaml"
-    # 日志文件存放路径
-    LOG_PATH = '/logs/log'
+    # 日志配置文件路径
+    LOG_COF = '/log/log_conf.yaml'
 
 
 class LogEnum(Enum):
@@ -56,14 +56,28 @@ class LogEnum(Enum):
     日志配置必要字段的枚举类
     日志等级说明: debug < info < warning < warn < error < exception < critical
     """
-    # 日志等级
-    LOG_LV = 'INFO'
-    # 写入等级
-    FILE_LV = 'INFO'
-    # 输出等级
-    OUT_LV = 'INFO'
-    # 日志格式
-    FMT = '%(asctime)s -%(name)s -%(levelname)s -%(filename)s -%(levelno)s -%(message)s'
+    # 日志等级键名
+    LOG_LV = 'log_level'
+    # 写入等级键名
+    FILE_LV = 'file_level'
+    # 输出等级键名
+    OUT_LV = 'out_level'
+    # 日志格式键名
+    FMT = 'formate'
+    # 日志写入配置键名
+    FILE_COF = 'file_conf'
+    # 日志写入路径键名
+    LOG_PATH = 'path'
+    # 日志写入maxBytes键名
+    SIZE = 'size'
+    # 日志写入backupCount键名
+    COUNT = 'count'
+    # 日志写入encoding键名
+    ENCODE = 'encoding'
+    # 日志打印方式键名
+    MODE = 'channel'
+    # 日志颜色配置键名
+    COLOR = 'color'
 
 
 def get_project_path(path):
@@ -78,3 +92,17 @@ def get_project_path(path):
     )
     # 返回拼接的路径
     return project_path + path
+
+
+def str_operation(value_str):
+    """
+    运算字符串算式的结果
+    :param value_str: 字符串形式的算式
+    :return: 计算结果
+    """
+    result = 1
+    value_list = value_str.split('*')
+    for value in value_list:
+        result *= int(value)
+    # print(f'运算结果为{result}')
+    return result

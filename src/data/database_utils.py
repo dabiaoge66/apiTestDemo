@@ -1,6 +1,7 @@
 import pymysql
 import yaml
 from config.utils import get_project_path, FileEnum
+from log.log_utils import get_log
 
 
 def check_data(data_tuple):
@@ -12,17 +13,28 @@ def check_data(data_tuple):
         print(result)
 
 
+def read_conf(index, path=FileEnum.DB_CONF.value):
+    """
+    读配置文件
+    :param index: 配置id
+    :param path: 配置文件路径
+    :return: 返回读取结果
+    """
+    with open(get_project_path(path), encoding="utf-8", mode="r") as f:
+        value = yaml.load(f, yaml.FullLoader)[index]
+    return value
+
+
 class OperateDB:
-    def __init__(self, path=FileEnum.DB_CONF.value):
+    def __init__(self):
         """
         连接数据库
         :param: path: 文件路径
         """
-        # 读取配置文件
-        with open(get_project_path(path), encoding="utf-8", mode="r") as f:
-            value = yaml.load(f, yaml.FullLoader)
+        # 日志对象
+        self.logger = get_log('database_utils.log', 'r')
         # 取对应索引的配置信息
-        data = value[0]
+        data = read_conf(0)
         # 创建数据库对象
         self.db = pymysql.connect(
             host=data["host"],
@@ -39,6 +51,7 @@ class OperateDB:
         :param sql_str: 查询sql
         :return: 查询结果（元组）
         """
+        self.logger.debug(f'执行sql语句：{sql_str}')
         self.cursor.execute(sql_str)  # 执行sql
         data_tuple = self.cursor.fetchall()
         return data_tuple
@@ -50,13 +63,15 @@ class OperateDB:
         :return:
         """
         try:
+            self.logger.debug(f'执行sql语句：{sql_str}')
             self.cursor.execute(sql_str)  # 执行sql
             self.db.commit()  # 提交到数据库执行
             # data_tuple = self.cursor.fetchall()
             # return data_tuple
         except pymysql.Error as e:
             self.db.rollback()  # 执行失败则回滚
-            print(e.args[0], e.args[1])
+            self.logger.debug('已回滚')
+            self.logger.error(e.args[0], e.args[1])
             raise e
 
     def exit_db(self):
@@ -65,7 +80,9 @@ class OperateDB:
         :return:
         """
         self.cursor.close()
+        self.logger.info('游标关闭')
         self.db.close()
+        self.logger.info('连接关闭')
 
     def handle_db(self, sql_str):
         # 根据用例执行相应语句

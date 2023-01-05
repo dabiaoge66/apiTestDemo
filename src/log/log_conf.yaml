@@ -1,0 +1,52 @@
+- id: 0
+  config_name: 配置示例：写入+输出
+  formate: '%(log_color)s%(asctime)s --%(name)s --%(levelname)s --%(filename)s --[line:%(levelno)s] --%(message)s'
+  log_level: INFO
+  file_level: INFO
+  out_level: INFO
+  channel: Null
+  file_conf:
+    path: '/log/logs/log'
+    size: 20 * 1024 * 1024
+    count: 10
+    encoding: 'UTF-8'
+  color:
+    DEBUG: 'green'
+    INFO: 'cyan'
+    WARNING: 'yellow'
+    ERROR: 'bold_red'
+    CRITICAL: 'bg_white'
+
+- id: 1
+  cofig_name: 配置示例：仅输出到控制台
+  formate: '%(log_color)s%(asctime)s --%(name)s --%(levelname)s --%(filename)s --%(levelno)s --%(message)s'
+  log_level: INFO
+  file_level: INFO
+  out_level: INFO
+  channel: r
+  file_conf: Null
+  color:
+    DEBUG: 'green'
+    INFO: 'cyan'
+    WARNING: 'yellow'
+    ERROR: 'bold_red'
+    CRITICAL: 'bg_white'
+
+- id: 2
+  cofig_name: 配置示例：仅写入到文件
+  formate: '%(log_color)s%(asctime)s --%(name)s --%(levelname)s --%(filename)s --%(levelno)s --%(message)s'
+  log_level: INFO
+  file_level: INFO
+  out_level: INFO
+  channel: r
+  file_conf:
+    path: '/log/logs/log'
+    size: 20 * 1024 * 1024
+    count: 10
+    encoding: 'UTF-8'
+  color:
+    DEBUG: 'green'
+    INFO: 'cyan'
+    WARNING: 'yellow'
+    ERROR: 'bold_red'
+    CRITICAL: 'bg_white'
