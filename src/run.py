@@ -1,4 +1,6 @@
 import pytest
+from config.utils import get_project_path
 
 if __name__ == '__main__':
-    pytest.main(['-vs', 'testCreateOrder.py'])
+    path = get_project_path('/test_case/testCreateOrder.py')
+    pytest.main([path])
