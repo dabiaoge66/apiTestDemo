@@ -5,11 +5,13 @@
   requests:
     method: post
     path: /api/activitygift/receive
+#    path: /api/accountcard/exchange/log
     headers:
       uid: $.wx_uid[2]
     params:
-      exchangeCode: 5waibe6d2ifgea
+      exchangeCode: s828xwjmvc7cqa
       giftId: "142"
+#      accountCardId: '49'
   validate:
     assert_method:
       path: $.msg

@@ -22,7 +22,6 @@ class YamlOpt:
         :param path:json路径表达式
         :return: 表达式为空返回整个对象，不为空，返回表达式下的值
         """
-        self.logger.debug(f'正在读取{file_path}文件')
         with open(get_project_path(file_path), encoding="utf-8", mode="r") as f:
             value = yaml.load(f, yaml.FullLoader)
             if path is None:
@@ -32,6 +31,7 @@ class YamlOpt:
                     # jsonpath返回的是一个列表，取第一个值返回，方便操作
                     return jsonpath.jsonpath(value, path)[0]
                 except TypeError:
+                    self.logger.debug(jsonpath.jsonpath(value, path))
                     return jsonpath.jsonpath(value, path)
 
     def write_yaml(self, data, file_path=FileEnum.EXTRACT.value):
@@ -41,7 +41,7 @@ class YamlOpt:
         :param file_path:
         :return:
         """
-        self.logger.debug(f'正在写入到{file_path}文件')
+        self.logger.debug(f'写入{file_path}')
         with open(get_project_path(file_path), encoding="utf-8", mode="a+") as f:
             yaml.dump([data], stream=f, allow_unicode=True)
 
@@ -50,7 +50,7 @@ class YamlOpt:
         清空yaml文件
         :param file_path:
         """
-        self.logger.debug(f'正在清空{file_path}文件')
+        self.logger.debug(f'清空{file_path}')
         with open(get_project_path(file_path), encoding="utf-8", mode="w") as f:
             f.truncate()
 
@@ -61,7 +61,6 @@ class YamlOpt:
         :param path: jsonpath
         :return: json对应键的值
         """
-        self.logger.debug(f'正在读取{file_path}数据')
         with open(get_project_path(file_path), encoding="utf-8", mode='r') as f:
             # 读取json
             data = json.dumps(eval(f.read()))
@@ -70,6 +69,7 @@ class YamlOpt:
             try:
                 return jsonpath.jsonpath(data_list, path)[0]
             except TypeError:
+                self.logger.debug(f'jsonData:{jsonpath.jsonpath(data_list, path)}')
                 return jsonpath.jsonpath(data_list, path)
 
     def read_test_case(self, file_path, index=None):
@@ -79,7 +79,6 @@ class YamlOpt:
         :param file_path:yaml文件的路径
         :return: 返回用例内容
         """
-        self.logger.debug(f'正在读取{file_path}用例')
         with open(get_project_path(file_path), encoding="utf-8", mode="r") as f:
             value = yaml.load(f, yaml.FullLoader)
             # uid_index = random.randint(0, 2)  # 随机索引
@@ -91,13 +90,6 @@ class YamlOpt:
             # 给params重新赋值
             params = value[index][CaseEnum.REQUESTS.value][CaseEnum.PARAMS.value]
             self.reassignment(params, index)
-            if value[index][CaseEnum.VALIDATE.value] is not None:
-                # 给assert_path重新赋值
-                assert_path = value[index][CaseEnum.VALIDATE.value][CaseEnum.ACTUAL.value]
-                self.reassignment(assert_path, index)
-                # 给assert_field重新赋值
-                assert_field = value[index][CaseEnum.VALIDATE.value][CaseEnum.EXPECT.value]
-                self.reassignment(assert_field, index)
             # 返回用例数据
             return value[index]
 
@@ -108,14 +100,12 @@ class YamlOpt:
         :param index: 用例id
         :return:
         """
-        # 创建数据库处理对象
-        opdb = OperateDB()
-        self.logger.debug(f'正在调用二次赋值函数')
         for payload in parameter:
             if parameter[payload].startswith('$'):  # $开头则调赋值方法
                 self.handle_value(parameter=parameter, payload=payload, index=index)
-                continue
             elif parameter[payload].startswith(CaseEnum.SQL.value):  # sql开头则去操作数据库
+                # 创建数据库处理对象
+                opdb = OperateDB()
                 self.handle_sql(parameter=parameter, payload=payload, opdb=opdb)
             elif parameter[payload] == 'time':  # 值为time则赋值当前时间戳
                 parameter[payload] = round(time.time() * 1000)
@@ -130,12 +120,17 @@ class YamlOpt:
         """
         try:
             # 先读取data.json
-            self.logger.debug(f'读取json中')
+            if self.read_json(parameter[payload]) is False:
+                raise TypeError
             parameter[payload] = self.read_json(parameter[payload])
+            self.logger.debug(f'参数：{parameter[payload]}')
         except TypeError:
             # data.json没取到则取上一个接口响应值，索引-1
-            self.logger.debug(f'json未取到值,读取json中')
-            parameter[payload] = self.read_yaml(path=parameter[payload].replace('$', f'$[{index - 1}]'))
+            path = parameter[payload].replace('$', f'$[{index - 1}]')
+            if self.read_yaml(path=path) is False:
+                self.logger.debug('json和yaml都没读到数据')
+                raise '数据读取异常'
+            parameter[payload] = self.read_yaml(path=path)
 
     def handle_sql(self, parameter, payload, opdb):
         """

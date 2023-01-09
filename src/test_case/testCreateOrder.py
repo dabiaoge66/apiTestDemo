@@ -6,9 +6,7 @@ from log.log_utils import get_log
 
 class TestCreateOrder(object):
     """扫码下单测试类（传入的索引为用例id）"""
-    def __init__(self):
-        # 日志对象
-        self.logger = get_log('testcase.log', 'r')
+    logger = get_log('testcase.log', 'r')
 
     def test_nothing_balance(self, base_url):
         """无卡券无活动(纯余额)"""

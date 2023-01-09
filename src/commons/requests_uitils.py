@@ -43,12 +43,12 @@ class RequestsUtils:
         # 发送请求
         req = self.seed_requests(base_url=base_url, data=data)
         # 断言
-        result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value], index=index)
         self.logger.info(f'断言结果：{result}')
 
     def for_test(self, base_url, index):
         """浅浅测试一下"""
         data = YamlOpt().read_test_case(FileEnum.DEBUG.value, index)
         req = self.seed_requests(base_url=base_url, data=data)
-        result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value])
+        result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value], index=index)
         self.logger.info(f'断言结果：{result}')

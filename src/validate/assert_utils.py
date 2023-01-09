@@ -1,13 +1,14 @@
+from commons.yaml_utils import YamlOpt
 from config.utils import CaseEnum
 from log.log_utils import get_log
 
 
-def assertions(request_obj, validate_data):
+def assertions(request_obj, validate_data, index):
     """
     断言函数主入口，为便于调用写为方法
     :return: 返回断言结果（bool）
     """
-    return Assertions().validate_main(request_obj, validate_data)
+    return Assertions().validate_main(request_obj, validate_data, index)
 
 
 class Assertions:
@@ -16,19 +17,21 @@ class Assertions:
         # 日志对象
         self.logger = get_log('test.log', 'r')
 
-    def validate_main(self, request_obj, validate_data):
+    def validate_main(self, request_obj, validate_data, index):
         """
         断言主函数
+        :param index: 数据索引
         :param validate_data: 用例数据validate重新赋值后的数据
         :param request_obj: 传入request对象
         """
-        self.logger.debug('断言数据为空')
         result = True  # 若断言数据为None，默认返回True
         if validate_data is not None:
             self.logger.debug('正在执行断言')
             actual = validate_data[CaseEnum.ACTUAL.value]
+            YamlOpt().reassignment(actual, index + 1)  # 重新赋值
             method = validate_data[CaseEnum.COMPARE.value]
             expect = validate_data[CaseEnum.EXPECT.value]
+            YamlOpt().reassignment(actual, index + 1)  # 重新赋值
 
             for payload in actual:
                 if actual[payload] == CaseEnum.CODE.value:
@@ -72,7 +75,6 @@ class Assertions:
         """
         result = True
         try:
-            self.logger.debug('正在校对响应数据')
             if method[payload] == CaseEnum.IS.value:  # 相等
                 assert actual[payload] == expect[payload]
             elif method[payload] == CaseEnum.NOT.value:  # 不等
@@ -80,7 +82,7 @@ class Assertions:
             elif method[payload] == CaseEnum.IN.value:  # 包含
                 assert expect[payload] in actual[payload]
         except AssertionError as e:
-            self.logger.debug('响应数据断言未通过')
+            self.logger.debug(f'响应数据断言未通过,预期结果：{expect[payload]}, 实际结果：{actual[payload]}')
             result = False
             raise e
         finally:

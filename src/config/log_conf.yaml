@@ -1,6 +1,11 @@
 - id: 0
   config_name: 配置示例：写入+输出
-  formate: '%(log_color)s%(asctime)s --%(name)s --%(levelname)s --%(filename)s --[line:%(levelno)s] --%(message)s'
+  formate: '%(black)s%(bg_white)s[%(asctime)s]%(reset)s 
+            %(black)s%(bg_cyan)s%(name)-20s%(reset)s 
+            %(log_color)s%(levelname)-8s%(reset)s 
+            %(black)s%(bg_blue)s%(filename)-20s%(reset)s 
+            %(black)s%(bg_purple)sline:%(lineno)-4d%(reset)s  
+            %(bold_white)s--%(message)s%(reset)s'
   log_level: INFO
   file_level: INFO
   out_level: INFO
@@ -11,15 +16,19 @@
     count: 10
     encoding: 'UTF-8'
   color:
-    DEBUG: 'green'
-    INFO: 'cyan'
-    WARNING: 'yellow'
-    ERROR: 'bold_red'
-    CRITICAL: 'bg_white'
+    DEBUG: 'green,bg_black'
+    INFO: 'black,bg_green'
+    WARNING: 'black,yellow'
+    ERROR: 'bold_black,bg_red'
+    CRITICAL: 'bold_red,bg_white'
 
 - id: 1
   cofig_name: 配置示例：仅输出到控制台
-  formate: '%(log_color)s%(asctime)s --%(name)s --%(levelname)s --%(filename)s --%(levelno)s --%(message)s'
+  formate: '%(log_color)s%(asctime)s 
+            --%(name)s --%(levelname)s 
+            --%(filename)s 
+            --%(lineno)s 
+            --%(message)s'
   log_level: INFO
   file_level: INFO
   out_level: INFO
@@ -34,7 +43,12 @@
 
 - id: 2
   cofig_name: 配置示例：仅写入到文件
-  formate: '%(log_color)s%(asctime)s --%(name)s --%(levelname)s --%(filename)s --%(levelno)s --%(message)s'
+  formate: '%(log_color)s%(asctime)s 
+            --%(name)s 
+            --%(levelname)s 
+            --%(filename)s 
+            --%(lineno)s 
+            --%(message)s'
   log_level: INFO
   file_level: INFO
   out_level: INFO
