@@ -3,7 +3,7 @@
   config--项目配置文件
   data--依赖的数据文件、数据库工具类
   log--日志文件、日志工具类
-  report--测试报告文件
+  reports--测试报告文件
   test_case--用例配置文件、测试用例
   validate--断言工具类
   extract.yaml--接口数据中转文件

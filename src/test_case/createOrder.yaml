@@ -1,7 +1,7 @@
 - id: 0
   feature: 支付开机
-  story: 扫码接口
-  title: 无卡券无活动(纯余额)-扫码
+  story: 无卡券无活动(纯余额)
+  title: 扫码
   requests:
     method: get
     path: /api/product

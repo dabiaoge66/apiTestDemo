@@ -7,6 +7,7 @@ from validate.assert_utils import assertions
 
 class RequestsUtils:
     """请求工具类"""
+
     def __init__(self):
         # session对象
         self.sess = requests.session()
@@ -45,7 +46,11 @@ class RequestsUtils:
         # 断言
         result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value], index=index)
         self.logger.info(f'断言结果：{result}')
-        return data['title']
+        return {
+            CaseEnum.FEATURE.value: data[CaseEnum.FEATURE.value],
+            CaseEnum.STORY.value: data[CaseEnum.STORY.value],
+            CaseEnum.TITLE.value: data[CaseEnum.TITLE.value]
+        }
 
     def for_test(self, base_url, index):
         """浅浅测试一下"""
