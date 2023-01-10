@@ -45,6 +45,7 @@ class RequestsUtils:
         # 断言
         result = assertions(request_obj=req, validate_data=data[CaseEnum.VALIDATE.value], index=index)
         self.logger.info(f'断言结果：{result}')
+        return data['title']
 
     def for_test(self, base_url, index):
         """浅浅测试一下"""
