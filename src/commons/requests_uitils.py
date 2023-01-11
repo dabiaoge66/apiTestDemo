@@ -49,7 +49,7 @@ class RequestsUtils:
         return {
             CaseEnum.FEATURE.value: data[CaseEnum.FEATURE.value],
             CaseEnum.STORY.value: data[CaseEnum.STORY.value],
-            CaseEnum.TITLE.value: data[CaseEnum.TITLE.value]
+            CaseEnum.TITLE.value: data[CaseEnum.STORY.value]
         }
 
     def for_test(self, base_url, index):
